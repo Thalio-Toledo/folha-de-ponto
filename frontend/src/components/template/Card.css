@@ -1,0 +1,45 @@
+.profile {
+    background: linear-gradient(135deg, #058dbe 0%, #32dac3 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+    width: 15rem;
+    margin-left: 1rem;
+    overflow: hidden;
+   
+  }
+  li{
+    list-style: none;
+  }
+  li:hover{
+     
+      background: linear-gradient(135deg, #058dbe 0%, #32dac3 100%);
+  
+  
+  }
+  .img-avatar {
+    margin: 0 auto;
+    width: 10rem;
+    height: 10rem;
+  }
+  img {
+    border-radius: 100%;
+    width: 100%;
+  }
+  #card a {
+    text-decoration: none;
+    color: black;
+  }
+
+  @media (max-width: 768px) {
+    .profile {
+       display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+        margin-left: 0;
+        width: 100%
+       
+      }
+  }
