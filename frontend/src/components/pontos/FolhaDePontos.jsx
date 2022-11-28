@@ -35,7 +35,10 @@ export default class FolhaDePontos extends Component {
 
     renderTable() {
         return (
-            <table className="table mt-4">
+            <div className=' card w-50 mt-5'>
+                <h1>Folha de Pontos</h1>
+            <table className=" table">
+                
                 <thead>
                     <tr>
                         
@@ -48,6 +51,7 @@ export default class FolhaDePontos extends Component {
                     {this.renderRows()}
                 </tbody>
             </table>
+            </div>
         )
     }
 

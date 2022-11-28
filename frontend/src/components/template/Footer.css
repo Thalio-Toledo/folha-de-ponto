@@ -9,3 +9,11 @@ footer{
     bottom: 0;
     width: 100%;
 }
+
+@media(max-width: 768px) {
+
+    footer {
+        padding: 1rem 10rem;
+        position: fixed;
+    }
+}

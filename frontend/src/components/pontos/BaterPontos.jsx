@@ -42,9 +42,10 @@ updateField(event) {
 renderForm(){
     return (
         
-        <form>
+        <form className='card  w-50 mt-5'>
          
-  <div class="mb-3">
+  <div class="mb-3 " >
+    <h1>Marcar Pontos</h1>
     <label for="exampleInputEmail1" class="form-label">Entrada</label>
     <input name="entrada" value={this.state.ponto.entrada} onChange={e => this.updateField(e)} onInput={e=> this.mascaraHora('entrada')} maxlength="4" type="text" class="form-control"  aria-describedby="emailHelp"></input>
     <div id="emailHelp" class="form-text">Digite o horario de entrada</div>
